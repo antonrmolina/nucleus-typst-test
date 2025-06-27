@@ -219,7 +219,7 @@
   place(
     left + bottom,
     dx: -33%,
-    dy: 25%,
+    dy: -10pt,
     box(width: 27%, {
       set text(font: theme.font)
       if (kind != none) {
