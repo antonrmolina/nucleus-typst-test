@@ -75,7 +75,7 @@
         #set text(font: theme.font, size: 9pt, fill: gray.darken(50%))
         #pubmatter.show-spaced-content((
           if("venue" in fm) {emph(fm.venue)},
-          if("date" in fm and fm.date != none) {fm.date.display("[month repr:long] [day], [year]")}
+          // if("date" in fm and fm.date != none) {fm.date.display("[month repr:long] [day], [year]")}
         ))
         #h(1fr)
         #counter(page).display()
@@ -231,8 +231,8 @@
               weight = "bold"
             }
             return (
-              text(size: 7pt, fill: theme.color, weight: weight, d.title),
-              text(size: 7pt, d.date.display("[month repr:short] [day], [year]"))
+              text(size: 7pt, fill: theme.color, weight: weight, d.title)//,
+              //text(size: 7pt, d.date.display("[month repr:short] [day], [year]"))
             )
           }).flatten()
         )
