@@ -54,9 +54,9 @@
   //  dates = ((title: "Published", date: fm.date),)
   // } else if (type(date) == dictionary) {
   //   dates = (date,)
-  } else {
-    dates = date
-  }
+  //} else {
+  //  dates = date
+  //}
 
   // Set document metadata.
   set document(title: fm.title, author: fm.authors.map(author => author.name))
