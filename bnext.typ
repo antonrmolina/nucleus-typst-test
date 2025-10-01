@@ -50,8 +50,8 @@
 ) = {
   let fm = pubmatter.load(frontmatter)
   let dates;
-  if ("date" in fm and type(fm.date) == datetime) {
-    dates = ((title: "Published", date: fm.date),)
+  //if ("date" in fm and type(fm.date) == datetime) {
+  //  dates = ((title: "Published", date: fm.date),)
   // } else if (type(date) == dictionary) {
   //   dates = (date,)
   } else {
@@ -74,7 +74,7 @@
       context [
         #set text(font: theme.font, size: 9pt, fill: gray.darken(50%))
         #pubmatter.show-spaced-content((
-          if("venue" in fm) {emph(fm.venue)},
+          if("venue" in fm) {emph(fm.venue)} //,
           // if("date" in fm and fm.date != none) {fm.date.display("[month repr:long] [day], [year]")}
         ))
         #h(1fr)
