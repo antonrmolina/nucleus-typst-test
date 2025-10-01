@@ -197,14 +197,6 @@
         #pubmatter.show-copyright(fm)
       ]
     ),
-    (
-      title: "Open Source",
-      content: [
-        #set par(justify: true)
-        #set text(size: 7pt)
-        The materials and processes described in this article are distributed under the terms of the #link("https://gitlab.com/ohwr/project/cernohl/-/wikis/uploads/98ff9662c7ce4252ec91104118c2af8e/cern_ohl_p_v2.pdf", "CERN Open Hardware License Permissive 2.0"), which enables reusers to make and convey any component or device that apply the information made explicitly available under this license, so long as all notices are retained.
-      ]
-    ),
     if fm.at("github", default: none) != none {
       (
         title: "Data Availability",
