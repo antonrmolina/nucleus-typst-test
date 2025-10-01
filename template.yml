@@ -24,7 +24,7 @@ doc:
   - id: title
     required: true
   - id: authors
-    required: true
+    required: false
   - id: subtitle
   - id: short_title
   - id: open_access
@@ -37,4 +37,4 @@ parts:
     description: >
       An abstract is a short summary of your research paper or report.
     max_words: 500
-    required: true
+    required: false
