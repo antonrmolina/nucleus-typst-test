@@ -23,9 +23,6 @@
 #show: template.with(
   frontmatter: (
     title: "[-doc.title-]",
-    abstract: [
-  [-parts.abstract-]
-    ],
   [# if doc.subtitle #]
     subtitle: "[-doc.subtitle-]",
   [# endif #]
