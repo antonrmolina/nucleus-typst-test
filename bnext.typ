@@ -260,8 +260,6 @@
     }),
   )
 
-  pubmatter.show-abstract-block(fm)
-
   show par: set par(spacing: 1.4em, justify: true)
 
   show raw.where(block: true): (it) => {
