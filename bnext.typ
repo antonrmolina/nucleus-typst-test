@@ -1,6 +1,6 @@
 #import "@preview/pubmatter:0.2.0"
 
-#let bnextTitle = "Nucleus Developer Notes";
+#let bnextTitle = "Nucleus Protocols";
 #let bnextLogo = image("logo.png");
 
 #let leftCaption(it) = context {
