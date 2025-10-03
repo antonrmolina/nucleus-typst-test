@@ -75,8 +75,8 @@
         #set text(font: theme.font, size: 9pt, fill: gray.darken(50%))
         //#pubmatter.show-spaced-content((
         //  if("venue" in fm) {emph(fm.venue)} //,
-          // if("date" in fm and fm.date != none) {fm.date.display("[month repr:long] [day], [year]")}
-        ))
+        // if("date" in fm and fm.date != none) {fm.date.display("[month repr:long] [day], [year]")}
+        //))
         #h(1fr)
         #counter(page).display()
       ]
