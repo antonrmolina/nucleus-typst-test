@@ -189,14 +189,14 @@
         ],
       )
     },
-    (
-      title: [Open Access #h(1fr) #pubmatter.show-license-badge(fm)],
-      content: [
-        #set par(justify: true)
-        #set text(size: 7pt)
-        #pubmatter.show-copyright(fm)
-      ]
-    ),
+//    (
+//      title: [Open Access #h(1fr) #pubmatter.show-license-badge(fm)],
+//      content: [
+//        #set par(justify: true)
+//        #set text(size: 7pt)
+//        #pubmatter.show-copyright(fm)
+//      ]
+//    ),
     if fm.at("github", default: none) != none {
       (
         title: "Data Availability",
